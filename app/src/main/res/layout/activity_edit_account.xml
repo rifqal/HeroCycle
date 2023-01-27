@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Account"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/upperyellowbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/circle"
+        android:elevation="20dp" />
+
+    <TextView
+        android:id="@+id/txtprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Edit Profile"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#0C0C0C"
+        android:textSize="48sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imgUser"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:contentDescription="@string/userpicture"
+            app:srcCompat="@drawable/user" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@id/imgUser"
+            android:hint="@string/full_name"
+            android:inputType="textEmailAddress"
+            android:textColor="#5E5858"
+            android:textColorHint="#006064" />
+
+        <EditText
+            android:id="@+id/edtBirthdate"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/edtName"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/imgUser"
+            android:ems="10"
+            android:hint="Birthdate"
+            android:textColor="#5E5858"
+            android:textColorHint="#006064" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:hint="Home Address"
+        android:inputType="textEmailAddress"
+        android:textColor="#5E5858"
+        android:textColorHint="#006064" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="#006064" />
+
+    <EditText
+        android:id="@+id/edtTextPhone"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:hint="Mobile"
+        android:inputType="phone"
+        android:textColorHint="#006064" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="@string/save"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:onClick="goSave"/>
+
+
+    <ImageView
+        android:id="@+id/imgdiscussion"
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/grass"
+        android:scaleType="fitCenter"/>
+
+</LinearLayout>

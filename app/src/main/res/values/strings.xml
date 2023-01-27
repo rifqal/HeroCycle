@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">HeroCycle</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Welcome">WELCOME</string>
+    <string name="Hello">Hello, User</string>
+    <string name="Hero">Let\'s be a hero today</string>
+    <string name="save">Save</string>
+    <string name="full_name">Full Name</string>
+    <string name="userpicture">userPicture</string>
+    <string name="email">Email</string>
+    <string name="edit_profile">Profile</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="registerNow">Not a member? Register now</string>
+    <string name="eye_close">Eye close</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="handshake_illustration">handshake illustration</string>
+    <string name="Continue">Continue</string>
+    <string name="mobile">Mobile</string>
+    <string name="by_signing_up_you_re_agree_to_our">By signing up, you\'re agree to our</string>
+    <string name="terms_conditions_and_privacy_policy">Terms, Conditions and Privacy Policy</string>
+    <string name="us_herocycle_recyling_application_so_whenever_you_see">Us - HeroCycle, recycling application. So whenever you see</string>
+    <string name="log_in">LOG IN</string>
+    <string name="terms_amp_condition"><![CDATA[Terms & Condition]]></string>
+    <string name="version_3_0_1">Version 3.0.1</string>
+    <string name="these_terms_and_conditions_set_out_the_agreement_between">These Terms and Conditions set out the agreement between:</string>
+    <string name="you_know_who_we_re_referring_to">you know who we\'re referring to.</string>
+    <string name="in_nutshell">In nutshell:</string>
+    <string name="title_activity_news1">News1</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_news2">news2</string>
+    <string name="deforestation">Deforestation</string>
+    <string name="you_the_person_we_opened_account_for_n_nus_herocycle_recyling_applications_so_whenever_you_see_we_us_or_our_you_know_who_we_referring_to">You - The person we opened account for \n\nUs - Herocycle, recyling applications. So whenever you see We, us or our. You know who we referring to</string>
+    <string name="we_care_about_your_privacy_and_we_always_want_to_be_transparent_about_how_herocycle_handles_your_data_n_nyour_data_is_not_our_business_we_only_collect_your_personal_data_that_s_essential_to_do_the_recycling_delivery_we_own_herocycle_but_everything_you_put_in_it_is_100_your_own_we_ll_never_share_it_with_3rd_parties_without_your_express_permission">We care about your privacy, and we always want to be transparent about how HeroCycle handles your data. \n\nYour data is not our business. We only collect your personal data that\'s essential to do the recycling delivery. We own HeroCycle, but everything you put in it is 100% your own. We\'ll never share it with 3rd parties without your express permission</string>
+    <string name="security">security</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string-array name="State">
+        <item>Kuala Lumpur</item>
+        <item>Putrajaya</item>
+        <item>Pulau Pinang</item>
+        <item>Selangor</item>
+        <item>Negeri Sembilan</item>
+        <item>Melaka</item>
+        <item>Johor</item>
+        <item>Pahang</item>
+        <item>Terengganu</item>
+        <item>Kelantan</item>
+        <item>Sabah</item>
+        <item>Serawak</item>
+        <item>Labuan</item>
+    </string-array>
+    <string-array name="RegionJohor">
+        <item>Johor Bahru</item>
+        <item>Batu Pahat</item>
+        <item>Kluang</item>
+        <item>Kulai</item>
+        <item>Muar</item>
+        <item>Kota Tinggi</item>
+        <item>Segamat</item>
+        <item>Pontian</item>
+        <item>Tangkak</item>
+        <item>Mersing</item>
+    </string-array>
+    <string-array name="RegionKedah">
+        <item>Sungai Petani</item>
+        <item>Alor Setar</item>
+        <item>Kulim</item>
+        <item>Kubang Pasu</item>
+        <item>Baling</item>
+        <item>Pendang</item>
+        <item>Langkawi</item>
+        <item>Yan</item>
+        <item>Sik</item>
+        <item>Padang Terap</item>
+        <item>Pokok Sena</item>
+        <item>Bandar Baharu</item>
+    </string-array>
+    <string-array name="RegionKelantan">
+        <item>Kota Bharu</item>
+        <item>Pasi Mas</item>
+        <item>Tumpat</item>
+        <item>Bachok</item>
+        <item>Tanah Merah</item>
+        <item>Pasir Puteh</item>
+        <item>Kuala Krai</item>
+        <item>Machang</item>
+        <item>Gua Musang</item>
+        <item>Jeli</item>
+        <item>Lojing</item>
+    </string-array>
+    <string-array name="RegionMelaka">
+        <item>Durian Tunggal</item>
+        <item>Krubong</item>
+        <item>Malim Jaya</item>
+        <item>Bukit Rambai</item>
+        <item>Alor Gajah</item>
+        <item>Jasin</item>
+        <item>Cheng</item>
+        <item>Ayer Keroh</item>
+        <item>Bandar Hilir</item>
+    </string-array>
+    <string-array name="RegionNegeriSembilan">
+        <item>Seremban</item>
+        <item>Jempol</item>
+        <item>Port Dickson</item>
+        <item>Tampin</item>
+        <item>Kuala Pilah</item>
+        <item>Rembau</item>
+        <item>Jelebu</item>
+    </string-array>
+    <string-array name="RegionPahang">
+        <item>Kuantan</item>
+        <item>Temerloh</item>
+        <item>Bentong</item>
+        <item>Maran</item>
+        <item>Rompin</item>
+        <item>Pekan</item>
+        <item>Bera</item>
+        <item>Raub</item>
+        <item>Jerantut</item>
+        <item>Lipis</item>
+        <item>Cameron Highlands</item>
+    </string-array>
+    <string-array name="RegionPerak">
+        <item>Kinta</item>
+        <item>Larut,Matang, Selama</item>
+        <item>Manjung</item>
+        <item>Hilir Perak</item>
+        <item>Kerian</item>
+        <item>Batang Padang</item>
+        <item>Kuala Kangsar</item>
+        <item>Perak Tengah</item>
+        <item>Hulu Perak</item>
+        <item>Kampar</item>
+        <item>Muallim</item>
+        <item>Bagan Datuk</item>
+    </string-array>
+    <string-array name="RegionPerlis">
+        <item>Perlis</item>
+    </string-array>
+    <string-array name="RegionPulauPinang">
+        <item>Timur Laut Pulau Pinang</item>
+        <item>Seberang Perai Tengah</item>
+        <item>Seberang Perai Utara</item>
+        <item>Barat Daya Pulau Pinang</item>
+        <item>Seberang Perai Selatan</item>
+    </string-array>
+    <string-array name="RegionSelangor">
+        <item>Petaling Jaya</item>
+        <item>Cyberjaya</item>
+        <item>Bangi</item>
+        <item>Rawang</item>
+        <item>Hulu Langat</item>
+        <item>Klang</item>
+        <item>Gombak</item>
+        <item>Kuala Langat</item>
+        <item>Sepang</item>
+        <item>Beranang</item>
+        <item>Kuala Selangor</item>
+        <item>Hulu Selangor</item>
+        <item>Sabak Bernam</item>
+        <item>Seri Kembangan</item>
+    </string-array>
+    <string-array name="RegionKualaLumpur">
+        <item>Kuala Lumpur</item>
+    </string-array>
+    <string-array name="RegionLabuan">
+        <item>Labuan</item>
+    </string-array>
+    <string-array name="RegionPutrajaya">
+        <item>Putrajaya</item>
+    </string-array>
+    <string-array name="RegionTerengganu">
+        <item>Petaling</item>
+        <item>Hulu Langat</item>
+        <item>Klang</item>
+        <item>Gombak</item>
+        <item>Kuala Langat</item>
+        <item>Sepang</item>
+        <item>Kuala Selangor</item>
+        <item>Hulu Selangor</item>
+        <item>Sabak Bernam</item>
+    </string-array>
+    <string-array name="RegionSabah">
+        <item>Kota Kinabalu</item>
+        <item>Tawau</item>
+        <item>Sandakan</item>
+        <item>Lahad Datu</item>
+        <item>Keningau</item>
+        <item>Kinabatangan</item>
+        <item>Semporna</item>
+        <item>Papar</item>
+        <item>Penampang</item>
+        <item>Beluran</item>
+        <item>Tuaran</item>
+        <item>Ranau</item>
+        <item>Kota Belud</item>
+        <item>Kudat</item>
+        <item>Kota Marudu</item>
+        <item>Beaufort</item>
+        <item>Kunak</item>
+        <item>Tenom</item>
+        <item>Putatan</item>
+        <item>Pitas</item>
+        <item>Tambunan</item>
+        <item>Tongod</item>
+        <item>Sipitang</item>
+        <item>Nabawan</item>
+        <item>Kuala Penyu</item>
+    </string-array>
+    <string-array name="RegionSarawak">
+        <item>Kuching</item>
+        <item>Miri</item>
+        <item>Sibu</item>
+        <item>Bintulu</item>
+        <item>Serian</item>
+        <item>Kota Samarahan</item>
+        <item>Sri Aman</item>
+        <item>Marudi</item>
+        <item>Betong</item>
+        <item>Sarikei</item>
+        <item>Kapit</item>
+        <item>Bau</item>
+        <item>Limbang</item>
+        <item>Saratok</item>
+        <item>Mukah</item>
+        <item>Simunjan</item>
+        <item>Lawas</item>
+        <item>Belaga</item>
+        <item>Lundu</item>
+        <item>Asajaya</item>
+        <item>Daro</item>
+        <item>Tatau</item>
+        <item>Maradong</item>
+        <item>Kanowit</item>
+        <item>Lubok Antu</item>
+        <item>Selangau</item>
+        <item>Song</item>
+        <item>Dalat</item>
+        <item>Matu</item>
+        <item>Julau</item>
+        <item>Pakan</item>
+    </string-array>
+</resources>
